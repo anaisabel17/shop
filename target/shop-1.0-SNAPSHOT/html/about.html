@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Patitas con Estilo - Tienda de Accesorios de Mascotas</title>
+        <!-- icon-->
+        <link rel="icon" type="image/x-icon" href="../images/Logo.png"/>
+
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+        <link href="../css/styles.css" rel="stylesheet" />
+    </head>
+
+    <body style="background-color: #ced4da;">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container px-4 px-lg-5">
+                <img src="../images/Logo.png" height="50px"/>
+                <a class="navbar-brand" href="#!">  Patitas con Estilo</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.jsp">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="#!">Acerca de</a></li>
+                        <li class="nav-item" ><form action="../ClienteServlet" method="POST">
+                                <a class="nav-link active"><input id="ver" type="submit" name="action" value="Ver clientes" style="background-color: #ced4da;color: black;border: none; cursor: pointer;"/></a></form>
+                        </li>
+                    </ul>
+                   
+                </div>
+            </div>
+        </nav>
+
+        <header class="bg-dark">
+            <div class="container px-4" style="display: flex; flex-direction: row; justify-content: center; align-items: center">
+                
+                <div class="text-center text-white">
+                    <img src="../images/Logo.png" height="125px"/>
+                </div>
+                <div class="titulos text-white">
+                    <h1 class="display-3 fw-bolder">  Patitas con Estilo</h1>    
+                    <p class="lead fw-normal text-white-50 mb-0">Tienda de accesorios para mascotas</p></div>
+            </div>
+        </header>
+
+        <!-- Section-->
+        <section style="background-color: #ced4da; margin: 1px 200px">
+            <div class="container px-4 px-lg-5 mt-5" style="display: flex; flex-direction: row;">
+                <div style="align-items: center; justify-content: center;">
+                    <h1>Tienda Online de Mascotas</h1>
+                        <p style="font-size:20px;">Ahorra tiempo y dinero haciendo tu compra en Patitas con Estilo. Ordena desde la comodidad de tu casa</p>
+                </div>                        
+                        <img src="../images/aboutPerro.jpg" height="150px"/>
+            </div>
+            <hr/>
+            <div class="container px-4 px-lg-5 mt-5" style="display: flex; flex-direction: row;">
+                    <img src="../images/aboutGato.jpg" height="200px"/>
+                         
+                        <div style="align-items: center; justify-content: center; margin-left: 35px;">
+                            <h1>Mision y Vision</h1>
+                                <p style="font-size:20px;">Nuestra mision es brindar los mejores accesorios para que tu mascota se sienta y luzca genial. En nuestra tienda de accesorios de mascotas, queremos ser líderes en la provisión de productos de alta calidad para mascotas, brindando una experiencia de compra excepcional y ayudando a los dueños a mejorar la vida de sus compañeros peludos. Nos esforzamos por ser reconocidos como una tienda de confianza y respetada por nuestra atención al cliente, nuestros valores éticos y nuestro compromiso con la comunidad y el medio ambiente.</p>
+                        </div> 
+            </div>
+            <hr/>
+            <div class="container px-4 px-lg-5 mt-5" style="display: flex; flex-direction: row;">
+                <div style="align-items: center; justify-content: center;">
+                    <h1>Sobre nosotros</h1>
+                        <p style="font-size:20px;">Mi nombre es Ana Isabel Patiño Osorio estudiante de tercer semestre de la Universidad de Antioquia. Este proyecto tiene como propósito el desarrollo de una práctica inicial de conexión entre el back y el front como persistencia de base de datos realizado en el año 2023 en el curso tecnicas de programación y laboratorio con direccion de la profesora Diana Margot Lopez.</p>
+                </div>                        
+                        <img src="../images/aboutNosotros.jpg" height="200px"/>
+            </div>
+        </section>    
+        <!-- Footer-->
+        <div class="footer-basic">
+            <footer>
+                <div class="social">
+                    <a href="https://www.instagram.com/" target="_blank"><i class="icon ion-social-instagram"></i></a>
+                    <a href="https://wa.me/3195548644" target="_blank"><i class="icon ion-social-whatsapp"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="icon ion-social-twitter"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="icon ion-social-facebook"></i></a>
+                </div>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href="html/index.html">Inicio</a></li>
+                    <li class="list-inline-item"><a href="html/about.html">Nosotros</a></li>
+                    <li class="list-inline-item"><a href="https://policies.google.com/terms?hl=es" target="_blank">Terminos y Condiciones</a></li>
+                </ul>
+                <p class="copyright">Patitas con Estilo © 2023</p>
+            </footer>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
